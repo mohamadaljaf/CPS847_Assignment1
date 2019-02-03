@@ -32,10 +32,11 @@ export BOT_TOKEN='<API_TOKEN>'    # set the API token for the bot
 export BOT_NAME='<BOT_NAME>'      # set the bot's username
 ```
 
-After setting those variables you may run the bot using `nodemon`:
+After setting those variables you may run the bot using one of the following, with `npm` or `nodemon`:
 
 ```bash
-nodemon index.coffee  # run the bot
+npm start             # run the bot with npm
+nodemon index.coffee  # run the bot with nodemon command
 ```
 
 After that is complete, you may interact with the bot.
