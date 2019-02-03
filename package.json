@@ -4,6 +4,7 @@
   "description": "Hello Team!",
   "main": "index.js",
   "dependencies": {
+    "slackbots": "^1.2.0"
   },
   "devDependencies": {},
   "scripts": {
