@@ -1,0 +1,1 @@
+bot = require './controllers/bots'

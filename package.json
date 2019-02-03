@@ -1,0 +1,25 @@
+{
+  "name": "CPS847_Assignment1",
+  "version": "1.0.0",
+  "description": "Hello Team!",
+  "main": "index.coffee",
+  "dependencies": {
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee index.coffee --nodejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinHGit/CPS847_Assignment1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvinHGit/CPS847_Assignment1/issues"
+  },
+  "homepage": "https://github.com/alvinHGit/CPS847_Assignment1#readme"
+}
