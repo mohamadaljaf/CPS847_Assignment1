@@ -4,6 +4,7 @@
   "description": "Hello Team!",
   "main": "index.coffee",
   "dependencies": {
+    "coffee-script": "^1.12.7",
     "slackbots": "^1.2.0"
   },
   "devDependencies": {},
