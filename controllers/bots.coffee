@@ -5,11 +5,13 @@ bot = new SlackBot
   name: process.env.BOT_NAME || 'sambot'
 
 bot.on 'start', ->
-  bot.postMessageToChannel 'botspam', 'Hello, I am awake!'
-
+  this.postMessageToChannel 'botspam', 'Hello, I am awake!'
 
 bot.on 'message', (data) ->
-  if data.type == 'message' && data.username != bot.name
-    bot.postMessage data.channel, data.text
+  index = this.ims.findIndex (im) ->
+    im.id == data.channel
+  console.log index
+  if data.type == 'message' && data.username != this.name && (data.text.includes("<@#{this.self.id}>" )|| index != -1)
+    bot.postMessage data.channel, data.text.split("<@#{this.self.id}>").join("")
 
 module.exports = bot
