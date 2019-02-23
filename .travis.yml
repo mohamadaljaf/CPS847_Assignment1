@@ -7,6 +7,6 @@ install:
 env:
   - BOT_TOKEN = "xoxb-534425515298-559901247575-xQYP20SC3sicp5ylzEP7NxlJ"
 script:
-  - coverage run index.coffee
+  - run index.coffee
 after_success:
  - bash < (curl -s https://codecov.io/bash) -t 10b28681-2e7b-4fdc-b2a3-546d89e1145b
