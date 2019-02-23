@@ -4,7 +4,6 @@ node_js:
   - "7"
 install:
   - npm install
-  - pip install codecov
 env:
   - BOT_TOKEN = "xoxb-534425515298-559901247575-xQYP20SC3sicp5ylzEP7NxlJ"
 script:
