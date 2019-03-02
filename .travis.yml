@@ -7,7 +7,7 @@ install:
   - pip install codecov
   - pip install coverage
 env:
-  - BOT_TOKEN = "xoxb-534425515298-559901247575-xQYP20SC3sicp5ylzEP7NxlJ"
+  - BOT_TOKEN = "X"
 script:
   - coverage run ./index.coffee
 after_success:
